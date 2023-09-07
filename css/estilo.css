@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: aliceblue;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+}
+
+header {
+    border: solid 20px brown;
+}
+
+
+.logoSharPei {
+    width: 150px;
+}
+
+.miFondo {
+    background-color: floralwhite;
+}
+
+.miLink:hover {
+    background-color: red;
+    color: whitesmoke;
+}
+
+.titulosH {
+    background-color: brown;
+    color: chartreuse;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px;
+}
+
+.titulosH h2 {
+    font-size: 35px;
+}
+
+
+.colorBtn {
+    background-color: chartreuse;
+    color: black;
+    font-size: 25px;
+
+}
+
+.colorFooter {
+    background-color: black;
+}
+
+.chinoAmericano {
+    width: 600px;
+    text-align: center;
+
+}
+
+.imgCarro {
+    width: 1500px;
+    text-align: center;
+}
+
+.spanFawn {
+    color: darkorange;
+}
+
+.spanAzul {
+    color: blue;
+}
+
+.spanApricot {
+    color: antiquewhite;
+}
+
+.spanChocolate {
+    color: chocolate;
+}
+
+.spanCrema {
+    color: beige;
+}
+
+.spanLila {
+    color: cornflowerblue;
+}
+
+.spanNegro {
+    color: dimgray;
+}
+
+.spanRojo {
+    color: red;
+}
+
+.otros {
+    text-align: center;
+    width: 500px;
+}
+
+.miParrafo {
+    color: brown;
+    text-transform: uppercase;
+}
+
+.miFormulario {
+    width: 600px;
+    text-align: center;
+}
