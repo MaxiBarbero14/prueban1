@@ -1,0 +1,111 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+  }
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+  }
+  
+  .logoSharPei {
+    width: 150px;
+  }
+  
+  .miFondo {
+    background-color: floralwhite;
+  }
+  
+  .miLink:hover {
+    background-color: red;
+    color: whitesmoke;
+  }
+  
+  .titulosH {
+    background-color: brown;
+    color: chartreuse;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px;
+  
+    h2 {
+      font-size: 35px;
+    }
+  }
+  
+  .colorBtn {
+    background-color: chartreuse;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .colorFooter {
+    background-color: black;
+  }
+  
+  .chinoAmericano {
+    width: 600px;
+    text-align: center;
+  }
+  
+  .imgCarro {
+    width: 1500px;
+    text-align: center;
+  }
+  
+  .spanFawn {
+    color: darkorange;
+  }
+  
+  .spanAzul {
+    color: blue;
+  }
+  
+  .spanApricot {
+    color: antiquewhite;
+  }
+  
+  .spanChocolate {
+    color: chocolate;
+  }
+  
+  .spanCrema {
+    color: beige;
+  }
+  
+  .spanLila {
+    color: cornflowerblue;
+  }
+  
+  .spanNegro {
+    color: dimgray;
+  }
+  
+  .spanRojo {
+    color: red;
+  }
+  
+  @media (min-width: 501px) and (max-width: 900px) {}
+  
+  .miParrafo {
+    color: brown;
+    text-transform: uppercase;
+  }
+  
+  .miFormulario {
+    width: 600px;
+    text-align: center;
+  }
+  
+  .item {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+  }
+  
+  
+  

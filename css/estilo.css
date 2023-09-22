@@ -1,112 +1,172 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 body {
-    background-color: aliceblue;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 40px;
+  background-color: aliceblue;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
 }
 
 h1 {
-    text-align: center;
-    text-transform: uppercase;
-    color: red;
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
 }
-
-header {
-    border: solid 20px brown;
-}
-
 
 .logoSharPei {
-    width: 150px;
+  width: 150px;
 }
 
 .miFondo {
-    background-color: floralwhite;
+  background-color: floralwhite;
 }
 
 .miLink:hover {
-    background-color: red;
-    color: whitesmoke;
+  background-color: red;
+  color: whitesmoke;
 }
 
 .titulosH {
-    background-color: brown;
-    color: chartreuse;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 16px;
+  background-color: brown;
+  color: chartreuse;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
 }
-
 .titulosH h2 {
-    font-size: 35px;
+  font-size: 35px;
 }
-
 
 .colorBtn {
-    background-color: chartreuse;
-    color: black;
-    font-size: 25px;
-
+  background-color: chartreuse;
+  color: black;
+  font-size: 25px;
 }
 
 .colorFooter {
-    background-color: black;
+  background-color: black;
 }
 
 .chinoAmericano {
-    width: 600px;
-    text-align: center;
-
+  width: 600px;
+  text-align: center;
 }
 
 .imgCarro {
-    width: 1500px;
-    text-align: center;
+  width: 1500px;
+  text-align: center;
 }
 
 .spanFawn {
-    color: darkorange;
+  color: darkorange;
 }
 
 .spanAzul {
-    color: blue;
+  color: blue;
 }
 
 .spanApricot {
-    color: antiquewhite;
+  color: antiquewhite;
 }
 
 .spanChocolate {
-    color: chocolate;
+  color: chocolate;
 }
 
 .spanCrema {
-    color: beige;
+  color: beige;
 }
 
 .spanLila {
-    color: cornflowerblue;
+  color: cornflowerblue;
 }
 
 .spanNegro {
-    color: dimgray;
+  color: dimgray;
 }
 
 .spanRojo {
-    color: red;
-}
-
-@media (min-width:501px) and (max-width:900px) {
+  color: red;
 }
 
 .miParrafo {
-    color: brown;
-    text-transform: uppercase;
+  color: brown;
+  text-transform: uppercase;
 }
 
 .miFormulario {
-    width: 600px;
-    text-align: center;
+  width: 600px;
+  text-align: center;
 }
+
+.item {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+}
+
+@keyframes animaciones {
+  0% {
+    width: 220px;
+  }
+  25% {
+    width: 240px;
+  }
+  50% {
+    width: 260px;
+  }
+  100% {
+    width: 300px;
+  }
+}
+.animaciones {
+  background-color: crimson;
+  animation-name: animaciones;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+h1 {
+  animation-name: texto;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
+.contactoFuente {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.misFondo {
+  background-color: floralwhite;
+}
+
+header {
+  border: solid 20px brown;
+}
+
+.letras {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: brown;
+}
+
+.letrasDos {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+  color: mediumblue;
+}
+
+/*# sourceMappingURL=estilo.css.map */
